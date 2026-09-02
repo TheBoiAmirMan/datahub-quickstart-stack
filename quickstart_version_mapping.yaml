@@ -1,0 +1,38 @@
+quickstart_version_map:
+  default:
+    composefile_git_ref: master
+    docker_tag: v1.7.0
+    mysql_tag: '8.2'
+  head:
+    composefile_git_ref: master
+    docker_tag: quickstart
+    mysql_tag: '8.2'
+  quickstart:
+    composefile_git_ref: master
+    docker_tag: quickstart
+    mysql_tag: '8.2'
+  stable:
+    composefile_git_ref: v1.7.0
+    docker_tag: v1.7.0
+    mysql_tag: '8.2'
+  v0.13.0:
+    composefile_git_ref: master
+    docker_tag: v0.13.0
+    mysql_tag: '8.2'
+  v0.9.6:
+    composefile_git_ref: v0.9.6.1
+    docker_tag: v0.9.6.1
+    mysql_tag: '5.7'
+  v1.3.0:
+    composefile_git_ref: v1.3.0.1
+    docker_tag: v1.3.0.1
+    mysql_tag: '8.2'
+  v1.4.0:
+    composefile_git_ref: v1.4.0.3
+    docker_tag: v1.4.0.3
+    mysql_tag: '8.2'
+  v1.6.0:
+    composefile_git_ref: v1.6.0.1
+    docker_tag: v1.6.0.1
+    mysql_tag: '8.2'
+
